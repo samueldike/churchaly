@@ -1,0 +1,35 @@
+.notifaya-visible {
+  /*animation: notifaya_movein 0.5s ease forwards, notifaya_moveout 0.5s 3s ease forwards;*/
+}
+
+#notifaya {
+  width: 303px;
+    height: 50px;
+    background: #ffffff;
+    color: white;
+    border-radius: 3px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 30px;
+    right: 0px;
+    z-index: 9999;
+    box-shadow: 0px 0px 9px -4px #5e5e5e;
+}
+
+/*#notif {
+  left: 10px;
+  opacity: 0;
+}*/
+
+@keyframes notifaya_movein {
+  from { right: -200px; }
+  to   { right: 10px; }
+}
+
+@keyframes notifaya_moveout {
+  from { right: 10px; }
+  to   { right: -200px; }
+}

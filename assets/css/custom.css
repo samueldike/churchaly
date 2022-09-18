@@ -1,0 +1,140 @@
+.login-logo-box{
+	position: absolute;
+    top: 37vh;
+    left: 82px;
+    z-index: 9999;
+    height: 100px;
+    width: 100px;
+}
+.login-logo-box img{
+	height: 100px;
+}
+.form-control:focus{
+	color: #495057;
+    background-color: #fff;
+    border-color: #21bcfe;
+    outline: 0;
+    box-shadow: 0 0 0 0px #21bcfe;
+}
+.login-header p{
+	font-size: 12px;
+}
+.login-footer{
+	font-size: 12px;
+	text-align: left;
+}
+.login-footer p{ 
+ 	font-size: 12px;
+}
+.login-header img{
+	height: 68px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Extra Small Mobile devices*/
+@media only screen and (max-width: 319px){
+	 .login-logo-box{
+	 	position: relative;
+	    text-align: center;
+	    width: 100%;
+	    top: 0;
+	    left: 0;
+	 }
+	 .login-header{
+	 	text-align: center;
+	 }
+	 .login-footer, .login-footer p{
+	 	text-align: center;
+	 	font-size: 12px;
+	 }
+}
+/*Mobile devices*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+	 .login-logo-box{
+	 	position: relative;
+	    text-align: center;
+	    width: 100%;
+	    top: 0;
+	    left: 0;
+	 }
+	 .login-header{
+	 	text-align: center;
+	 }
+	 .login-footer, .login-footer p{
+	 	text-align: center;
+	 	font-size: 12px;
+	 }
+}
+/*iPads, Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	 .login-logo-box{
+	 	position: relative;
+	    text-align: center;
+	    width: 100%;
+	    top: 0;
+	    left: 0;
+	 }
+	 .login-header{
+	 	text-align: center;
+	 }
+	 .login-footer, .login-footer p{
+	 	text-align: center;
+	 	font-size: 12px;
+	 }
+}
+/*Small screens, laptops*/
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+	 .login-logo-box{
+	 	position: absolute;
+	    top: 37vh;
+	    left: 20px;
+	    z-index: 9999;
+	    width: 63px;
+	    height: 63px;
+	 }
+	 .login-logo-box img{
+	 	height: 63px;
+	 }
+}
+/*Desktops, large screens*/
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+	 .login-logo-box{
+	 	position: absolute;
+	    top: 37vh;
+	    left: 15px;
+	    z-index: 9999;
+	    width: 100px;
+	    height: 100px;
+	 }
+	 .login-logo-box img{
+	 	height: 100px;
+	 }
+}
+/*Extra large screens, TV*/
+@media only screen and (min-width: 1201px){
+	 
+} 
